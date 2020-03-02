@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 开头 */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background: url(image/bgimg3.png) center repeat-y fixed;
+    background-size: 100%;
+}
+
+header {
+    background-color: #000B2F;
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bgimg {
+    width: 50%;
+}
+
+#star {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 6%;
+    top: 6%;
+    
+    animation: starani ease-in-out infinite 5s;
+}
+
+#astro {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 6%;
+    top: 6%;
+
+    animation: astani ease-in-out infinite 5s 0.5s;
+}
+
+@keyframes starani{
+    0% {transform: translateY(50px);}
+    50% {transform: translateY(-50px);}
+    100% {transform: translateY(50px);}
+}
+
+@keyframes astani{
+    0% {transform: translateY(25px);}
+    50% {transform: translateY(-25px);}
+    100% {transform: translateY(25px);}
+}
+
+.work {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.work p  {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    
+    width: fit-content;
+    height: fit-content;
+    margin: 30% auto 10% auto;
+
+    animation: astani ease-in-out infinite reverse 10s;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.work a {
+    justify-self: center;
+    text-decoration: none;
+    background-color: rgb(88, 16, 155);
+    border-radius: 50px;
+    box-shadow: 10px 7px 5px rgb(54, 14, 92);
+
+    width: fit-content;
+    height: fit-content;
+    margin: 2% 30% 2% 40%;
+}
+
+.work button {
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+    outline: none;
+
+    width: max-content;
+    padding: 10px 20px;
+}
+
+.work a:active {
+    box-shadow: 0 0 15px white;
+}
+
+/* 前部分 */
+
+.animation {
+    background-color: #000B2F;
+    height: 450px;
+    display: flex;
+}
+
+.animation p {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+
+    height: fit-content;
+    margin: 350px 30px auto;
+}
+
+/* intro部分 */
+
+.intro {
+    display: flex;
+    background-color: #1A1547;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.intro p {
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+
+    padding: 30px;
+    width: 50%;
+}
+
+.intro video {
+    align-self: center;
+    
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+}
+
+/* 内容部分 */
+
+.content {
+    background-color: #2C257A;
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.content p {
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+
+    padding: 30px;
+    width: 50%;
+}
+
+.content video {
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+}
+
+/* product部分 */
+
+.product {
+    background-color: rgba(0, 17, 255, 0.4);
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.product video {
+    align-self: center;
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    outline: none;
+}
+
+
+
+
+/* AR EXPERIENCE */
+
+/* 前部分 */
+
+.ar {
+    background-color: #000B2F;
+    height: 450px;
+    display: flex;
+}
+
+.ar p {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+
+    height: fit-content;
+    margin: 350px 30px auto;
+}
+
+/* inspiration部分 */
+
+.inspire {
+    display: flex;
+    background-color: #1A1547;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.inspire p {
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+
+    padding: 30px;
+    width: 50%;
+}
+
+.inspire img {
+    align-self: center;
+    
+    width: 35%;
+}
+
+/* experience部分 */
+
+.experience {
+    background-color: #2C257A;
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.experience p {
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+
+    padding: 30px;
+    width: 50%;
+}
+
+.experience img {
+    align-self: center;
+    width: 35%;
+}
+
+/* product2 */
+
+.productt {
+    background-color: rgba(0, 17, 255, 0.4);
+
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.productt img {
+    align-self: center;
+    width: 25%;
+    height: 25%;
+    padding: 25px;
+}
+
+.productt video {
+    align-self: center;
+    width: 25%;
+    height: 25%;
+    padding: 25px;
+    outline: none;
+}
+
+/* footer */
+
+footer {
+    background-color: #000B2F;
+
+    display: flex;
+    width: 100%;
+}
+
+footer a {
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+
+    width: fit-content;
+    height: fit-content;
+    margin: 7% auto;
+}
+
+footer button {
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 211, 100);
+    border-radius: 50px;
+    border: none;
+    outline: none;
+
+    width: max-content;
+    padding: 10px 25px;
+    margin: 3%;
+}

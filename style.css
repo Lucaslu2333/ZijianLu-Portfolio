@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color: rgb(201, 213, 223);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+    margin-top: 20%;
+}
+
+.content a {
+    justify-self: center;
+    text-decoration: none;
+
+    margin: 2% auto;
+}
+
+.content button {
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(30, 37, 35);
+    background-color: rgb(255, 255, 255);
+
+    outline: none;
+    border-radius: 15px;
+
+    padding: 10px 20px;
+}
